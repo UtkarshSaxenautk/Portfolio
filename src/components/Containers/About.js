@@ -36,12 +36,13 @@ const About = () => {
               <ListItem><MusicNoteIcon sx={{color:'white' , mr: 2}} />Music charged</ListItem>
             </List>
           </Typography>
-          <CardActions className='float-right'>
+         
+        </CardContent>
+         <CardActions className='float-right'>
             <a href='/'>
-              <Button size="small" className='bg-gray-700 shadow-lg shadow-cyan-500/50 ...'>Read More</Button>
+              <Button size="small" className='text-blue-300 bg-gray-700 shadow-lg shadow-cyan-500/50 ...'>Read More</Button>
               </a>
         </CardActions>
-        </CardContent>
         
       </Box>
       {/* <Box className=' column-sm  '> <Box className='flex justify-center'><img src={go} alt="logo "   /></Box> </Box> */}

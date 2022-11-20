@@ -1,7 +1,7 @@
 import React from 'react'
 import "react-step-progress-bar/styles.css";
 import { ProgressBar, Step } from "react-step-progress-bar";
-import { Box, Typography } from '@material-ui/core'
+import { Box, Typography ,CardActions , Button } from '@material-ui/core'
 import img from '../images/go.png'
 import './Skills.css'
 import SkillBar from 'react-skillbars'
@@ -44,7 +44,7 @@ const Skills = () => {
         </Typography>
               {/* <Box className="mx-8 mt-12 mb-12 md:flex justify-center  "> */}
               <Box className='mt-6'>
-                <SkillBar  skills={skills} animationDelay={5000}/>  
+                <SkillBar  skills={skills} animationDelay={1000} />  
             {/* <div className='row'>    
             <div className="col-sm skills">
                 <div className="details">
@@ -85,7 +85,12 @@ const Skills = () => {
            </div>  
                    */}
                   {/* </Box> */}
-                  </Box>
+              </Box>
+              <CardActions className='float-right'>
+            <a href='/'>
+              <Button size="small" className='text-blue-300 bg-gray-700 shadow-lg shadow-cyan-500/50 ...'>View all</Button>
+              </a>
+        </CardActions>
       </Box>
     </Box>
     

@@ -2,6 +2,8 @@ import React from "react";
 import {
   Typography,
   Box,
+  CardActions,
+  Button
 } from "@material-ui/core";
 
 
@@ -18,7 +20,13 @@ const Project = () => {
         <Box className="mx-8 mt-12 mb-12 md:flex justify-center  ">
           <Projects />
         </Box>
+        <CardActions className='float-right'>
+            <a href='/'>
+              <Button size="small" className='text-blue-300 bg-gray-700 shadow-lg shadow-cyan-500/50 ...'>Take a deep Look</Button>
+              </a>
+        </CardActions>
       </Box>
+      
     </Box>
   );
 };

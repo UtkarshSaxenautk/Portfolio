@@ -1,6 +1,6 @@
 import React from 'react';
 import { Timeline , TimelineItem , TimelineSeparator , TimelineDot , TimelineConnector , TimelineContent } from '@material-ui/lab'
-import { Box, Typography, Button } from '@mui/material'
+import { Box, Typography, Button , CardActions } from '@mui/material'
 import ApiIcon from '@mui/icons-material/Api';
 import PublicIcon from '@mui/icons-material/Public';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
@@ -8,7 +8,8 @@ import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 const Work = () => {
     return (
         
-            <Box className=" flex justify-self-auto mt-32 bg-slate-400" >
+        <Box className=" flex justify-self-auto mt-32 bg-slate-400" >
+       
       <Box className="column-sm w-screen bg-gradient-to-r from-gray-500 via-gray-400 to-slate-400 ... ">
           <Typography className='underline decoration-double decoration-black hover:underline   text-center font-mono hover:font-serif  text-3xl antialiased hover:subpixel-antialiased font-semibold ...'>Work Experience</Typography>
           <Box className= "mx-8 mt-12 mb-12 md:flex justify-center  ">
@@ -41,7 +42,9 @@ const Work = () => {
                     <li>Worked on Payment Service , User Service, Wallet Service and Game Service</li>
                     <li>Technologies: Nodejs , Reactjs , Firebase</li>
                 </ul></p>
-    </li>
+                        </li>
+                        
+                           
     {/* <li className="ml-6">
         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
             <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
@@ -50,10 +53,19 @@ const Work = () => {
         <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2nd, 2021</time>
         <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
     </li> */}
-            </ol>
+                    </ol>
+                    
+                </Box>
+                 <CardActions className='float-right'>
+            <a href='/'>
+              <Button size="small" className='text-blue-300 bg-gray-700 shadow-lg shadow-cyan-500/50 ...'>Know More</Button>
+              </a>
+        </CardActions>
+                      
+            </Box>  
             </Box>
-      </Box>      
-    </Box>
+            
+    
    
       
   )

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './First.css'
-import utk from '../images/Home.jpg'
+import utk from '../images/utk_new.png'
 import PanToolIcon from '@mui/icons-material/PanTool';
 import { red } from '@mui/material/colors';
 import Box from '@mui/material/Box'

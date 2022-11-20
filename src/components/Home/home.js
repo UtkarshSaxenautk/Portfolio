@@ -9,6 +9,7 @@ import Work from '../Containers/Work';
 import Project from '../Containers/Project';
 import Projects from '../Containers/Projects';
 import Skills from '../Containers/Skills';
+import Footer  from '../Containers/Footer';
 const Home = () => {
     return (
         <>
@@ -17,15 +18,17 @@ const Home = () => {
         <br />
         <br/>
         <Box className='bg-slate-300 h-screen'>
-        <Container sx={{py:20}} className='bg-slate-300 max-w-full'>
+        <Container sx={{pt:20}} className='bg-slate-300 max-w-full'>
             <First />
             <About />
             <Work />
             <Project />
             <Skills />
+            <Footer/>
             {/* <Projects /> */}
-          </Container>
-          </Box>
+        </Container>  
+        </Box>
+         
         </>
   )
 }

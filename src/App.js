@@ -2,6 +2,7 @@ import './App.css';
 import Home from './components/Home/home'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ChakraProvider } from '@chakra-ui/react'
+import Footer from './components/Containers/Footer';
 
 function App() {
   return (
@@ -14,7 +15,6 @@ function App() {
             
             <Route path="/" element={<Home />} />
            
-
           </Routes>
       </BrowserRouter>
  

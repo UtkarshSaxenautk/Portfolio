@@ -125,7 +125,7 @@ const Nav = (props) => {
                 <MenuIcon />
               </IconButton>
 
-              <Menu
+              <Menu 
                 id="menu-appbar"
                 anchorEl={anchorElNav}
                 anchorOrigin={{
@@ -140,13 +140,13 @@ const Nav = (props) => {
                 open={Boolean(anchorElNav)}
                 onClose={handleCloseNavMenu}
                 sx={{
-                  display: { xs: "block", md: "none" },
+                  display: { xs: "block", md: "none" , color: "black" },
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page.Name} onClick={handleCloseNavMenu}>
-                    <a className='onhover:text-gray-700 visited:text-black' href={page.Path} >
-                    <Typography textAlign="center">
+                  <MenuItem className="bg-white text-black" key={page.Name} onClick={handleCloseNavMenu}>
+                    <a className=' visited:text-black' href={page.Path} >
+                    <Typography textAlign="center" className="text-black">
                       {page.Icon}
                       {page.Name}
                       </Typography>

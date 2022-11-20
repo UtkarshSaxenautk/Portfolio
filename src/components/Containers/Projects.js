@@ -8,7 +8,7 @@ import { Button , CardActions } from '@material-ui/core'
 const Projects = () => {
   return (
     <div className="flexbox">
-        <div className="flexcard flexcardGreen mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">
+        <div className="bg-gray-300 text-black flexcard flexcardGreen mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">
             <div className="flexcardNumber flexcardNumberGreen">01</div>
             <div className="flex flexcardTitle">Chat Room</div>
             <div className="flex flexcardText"> A socket io based web app for chatting between users in
@@ -27,7 +27,7 @@ const Projects = () => {
               </a>
         </CardActions></div>  
         </div>
-        <div className="flexcard flexcardBlue mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">
+        <div className=" bg-gray-300 text-black  flexcard flexcardBlue mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">
             <div className="flexcardNumber flexcardNumberBlue ">02</div>
             <div className="flex flexcardTitle">Bill Optimizer</div>
             <div className="flex flexcardText">A Mern based web app for optimizing your monthly bill
@@ -45,8 +45,8 @@ const Projects = () => {
               </a>
         </CardActions></div>
         </div>
-        <div className="flexcard flexcardOrange mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">
-            <div className="flexcardNumber flexcardNumberOrange">03</div>
+        <div className="bg-gray-300 text-black flexcard flexcardOrange mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">
+            <div  className=" flexcardNumber flexcardNumberOrange">03</div>
             <div className="flex flexcardTitle">Booking Site</div>
             <div className="flex flexcardText"> A Modern Web app based on golang and its templates to book hotels and rooms according to location using PostgreSQL database
                                       with mailing functionality.</div>

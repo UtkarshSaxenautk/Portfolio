@@ -56,7 +56,7 @@
     z-index: -1;
     /* background: #95B7A2; */
     /* background: -webkit-linear-gradient(bottom, #95B7A2, #AED2BC); */
-    background: -moz-linear-gradient(bottom, #95B7A2, #AED2BC);
+    background: -moz-linear-gradient(bottom, #111111, #333534);
     /* background: linear-gradient(to top, #95B7A2, #AED2BC); */
     ;
 }
@@ -87,70 +87,70 @@ img.flexcardimgItem {
 /* GREEN CARD */
 
 .flexcardGreen {
-    background: #f9fbfa;
-    box-shadow: 4px 4px 4px #AED2BC;
+    background: #2d2d2d;
+    box-shadow: 4px 4px 4px #252625;
 }
 
 .flexcardNumberGreen {
-    background: #FCFCFC;
-    background: -webkit-linear-gradient(right, #FCFCFC, #AED2BC);
-    background: -moz-linear-gradient(right, #FCFCFC, #AED2BC);
-    background: linear-gradient(to left, #FCFCFC, #AED2BC);
-    box-shadow: 0px 2px 2px #AED2BC;
+    background: #100f0f;
+    background: -webkit-linear-gradient(right, #282727, #1c1d1c);
+    background: -moz-linear-gradient(right, #101010, #1a1b1b);
+    background: linear-gradient(to left, #151414, #1c1d1d);
+    box-shadow: 0px 2px 2px #1c1c1c;
 }
 
 .flexcardNumberGreen:before {
-    background: #AED2BC;
+    background: #0f100f;
 }
 
 .flexcardNumberGreen:after {
-    background: #95b7a2;
+    background: #161616;
 }
 
 /* BLUE CARD */
 
 .flexcardBlue {
-    background: #f7ffff;
-    box-shadow: 4px 8px 1px #92E8EB;
+    background: #1c1c1c;
+    box-shadow: 4px 8px 1px #202020;
 }
 
 .flexcardNumberBlue {
-    background: #FDFFFE;
-    background: -webkit-linear-gradient(right, #FDFFFE, #92E8EB);
-    background: -moz-linear-gradient(right, #FDFFFE, #92E8EB);
-    background: linear-gradient(to left, #FDFFFE, #92E8EB);
-    box-shadow: 0px 2px 2px #92E8EB;
+    background: #121212;
+    background: -webkit-linear-gradient(right, #161616, #131414);
+    background: -moz-linear-gradient(right, #171817, #161717);
+    background: linear-gradient(to left, #101010, #1c1d1d);
+    box-shadow: 0px 2px 2px #171818;
 }
 
 .flexcardNumberBlue:before {
-    background: #92E8EB;
+    background: #141414;
 }
 
 .flexcardNumberBlue:after {
-    background: #71bdbf;
+    background: #1a1a1b;
 }
 
 /* ORANGE CARD */
 
 .flexcardOrange {
-    background: #fdf8f3;
-    box-shadow: 4px -2px 1px #F68404;
+    background: #050505;
+    box-shadow: 4px -2px 1px #111111;
 }
 
 .flexcardNumberOrange {
-    background: #FDFFFE;
-    background: -webkit-linear-gradient(right, #FDFFFE, #F68404);
-    background: -moz-linear-gradient(right, #FDFFFE, #F68404);
-    background: linear-gradient(to left, #FDFFFE, #F68404);
-    box-shadow: 0px 2px 2px #F68404;
+    background: #121312;
+    background: -webkit-linear-gradient(right, #0f0f0f, #1a1a19);
+    background: -moz-linear-gradient(right, #0e0e0e, #242323);
+    background: linear-gradient(to left, #0d0e0d, #181817);
+    box-shadow: 0px 2px 2px #0b0b0a;
 }
 
 .flexcardNumberOrange:before {
-    background: #F68404;
+    background: #0f0f0f;
 }
 
 .flexcardNumberOrange:after {
-    background: #d06f02;
+    background: #161616;
 }
 
 /* PİNK CARD */

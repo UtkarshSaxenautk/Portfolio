@@ -24,7 +24,7 @@ const First = () => {
             <Button variant="contained" color="success">Let's Connect</Button>
             <br />
             <br/>
-            <span className='tracking-tight hover:tracking-wide pt-1'><a href='https://www.instagram.com/utkarsh_saxena_utk/' target={'_blank'} rel="noreferrer"><InstagramIcon className='mx-3'/></a><a href='https://www.linkedin.com/in/utkarsh-saxena-5a9034201/' rel="noreferrer" target={'_blank'}><LinkedInIcon className='mx-3'/></a><a rel="noreferrer" href='https://github.com/UtkarshSaxenautk' target={'_blank'}><GitHubIcon className='mx-3'/></a></span>
+            <span className='tracking-tight hover:tracking-wide pt-1'><a className='text-gray-600' href='https://www.instagram.com/utkarsh_saxena_utk/' target={'_blank'} rel="noreferrer"><InstagramIcon className='mx-3 text-gray-600'/></a><a href='https://www.linkedin.com/in/utkarsh-saxena-5a9034201/' rel="noreferrer" target={'_blank'}><LinkedInIcon className='mx-3 text-gray-600'/></a><a rel="noreferrer" href='https://github.com/UtkarshSaxenautk' target={'_blank'}><GitHubIcon className='mx-3 text-gray-600'/></a></span>
             
       </ul>
         </div>

@@ -47,8 +47,8 @@ const Footer = () => {
       </a>
     </ul>
   </div>
-  <div className="final_text"></div>
-  <p>Copyright &copy; All rights reserved
+  <div className=" text-center "></div>
+  <p className='justify-center text-center'>Copyright &copy; All rights reserved
     <br/>Designed by Utkarsh Saxena, 2022
   </p>
 </footer>

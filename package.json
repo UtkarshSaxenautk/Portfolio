@@ -21,6 +21,7 @@
     "react-browser-router": "^2.1.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.1",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-skillbars": "^2.1.0",
     "react-step-progress-bar": "^1.0.3",

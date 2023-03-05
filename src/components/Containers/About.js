@@ -38,7 +38,7 @@ const About = () => {
           </Typography>
          
         </CardContent>
-         <CardActions className='float-right'>
+         <CardActions id="work" className='float-right'>
             <a href='/'>
               <Button size="small" className='text-blue-300 bg-gray-700 shadow-lg shadow-cyan-500/50 ...'>Read More</Button>
               </a>

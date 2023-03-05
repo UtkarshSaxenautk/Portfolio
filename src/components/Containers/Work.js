@@ -8,7 +8,7 @@ import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 const Work = () => {
     return (
         
-        <Box className=" flex justify-self-auto mt-32 bg-slate-400" >
+        <Box  className=" flex justify-self-auto mt-32 bg-slate-400" >
        
       <Box className="column-sm w-screen bg-gradient-to-r from-gray-500 via-gray-400 to-slate-400 ... ">
           <Typography className='underline decoration-double decoration-black hover:underline   text-center font-mono hover:font-serif  text-3xl antialiased hover:subpixel-antialiased font-semibold ...'>Work Experience</Typography>
@@ -56,7 +56,7 @@ const Work = () => {
                     </ol>
                     
                 </Box>
-                 <CardActions className='float-right'>
+                 <CardActions id="projects" className='float-right'>
             <a href='/'>
               <Button size="small" className='text-blue-300 bg-gray-700 shadow-lg shadow-cyan-500/50 ...'>Know More</Button>
               </a>

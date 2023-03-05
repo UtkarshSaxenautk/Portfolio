@@ -20,7 +20,7 @@ const Home = () => {
         <Box className='bg-slate-300 h-screen'>
         <Container sx={{pt:20}} className='bg-slate-300 max-w-full'>
             <First />
-            <About />
+            <About  />
             <Work />
             <Project />
             <Skills />

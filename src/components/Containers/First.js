@@ -11,7 +11,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 const First = () => {
   return (
     
-   <div className="container ">
+   <div  className="container " >
       <div className="row">
         <div className="col-sm mb-32 md:py-1 sm:pb-12 ,flex justify-center items-center text-center  ">
           
@@ -30,12 +30,12 @@ const First = () => {
         </div>
         <br />
         <br/>
-        <Box className="py-4 h-40 col-sm rounded-lg ... border-double border-x-2 sm:py-1 flex justify-center items-center  " >
+        <Box  className="py-4 h-40 col-sm ... border-double border-x-2 sm:py-1 flex justify-center items-center  " >
           <i className='fas fa-angle-double-right text-2xl' ></i>
-            
-            <img className=' py-5 object-scale-down h-96 w-96   ...' src={utk} alt="utkarshImage" />
           
-          <i className='fas fa-angle-double-left text-2xl '></i>
+            <img className='utkimg py-5 object-scale-down h-96 w-96   ...' src={utk} alt="utkarshImage" />
+            
+          <i id="aboutme" className='fas fa-angle-double-left text-2xl '></i>
     </Box>
         
     

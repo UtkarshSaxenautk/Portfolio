@@ -1,0 +1,160 @@
+{
+  "basics": {
+    "name": "Utkarsh Saxena",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "utkarshsaxena2012@gmail.com",
+    "phone": "+91 7985259022",
+    "url": "https://github.com/UtkarshSaxenautk",
+    "summary": "B.Tech Computer Science Engineering Student. Have good coding skills in Golang,Node js and Java. A passionate professional with great interpersonal and communication skills.",
+    "location": {
+      "address": "Jalandhar,Punjab",
+      "city": "Jalandhar",
+      "countryCode": "IN",
+      "region": "India"
+    },
+    "profiles": [{
+      "network": "Github",
+      "username": "UtkarshSaxenautk",
+      "url": "https://github.com/UtkarshSaxenautk"
+    },{
+        "network": "LeetCode",
+      "username": "usutk",
+      "url": "https://leetcode.com/usutk/"
+    },{
+        "network": "CodeChef",
+      "username": "utk_2003",
+      "url": "https://www.codechef.com/users/utk_2003"
+    }]
+  },
+  "work": [{
+    "name": "myMandap",
+    "position": "Software Engineer Intern",
+    "url": "https://mymandap.in/",
+    "startDate": "2022-08-6",
+    "endDate": "Present",
+    "summary": "Working on Project name:  RabbitLoader(https://rabbitloader.com/)",
+    "highlights": [
+      "Building Microservices in Go and Unit testing."
+    ]
+  },{
+    "name": "Wizwack",
+    "position": "Full Stack Developer Intern",
+    "url": "https://wizwack.in/",
+    "startDate": "2022-05-05",
+    "endDate": "2022-08-05",
+    "summary": "Worked on backend services of Game name: StarHuntRMG",
+    "highlights": [
+      "Worked on firebase Services in Nodejs and Cashfree Payment Service."
+    ]
+  }],
+  "education": [{
+    "institution": "I.K. Gujral Punjab Technical University, Jalandhar",
+    "url": "https://ptu.ac.in/",
+    "area": "Computer Science Engineering",
+    "studyType": "Bachelor's Of Technology",
+    "startDate": "2020-10-01",
+    "endDate": "2024-07-01",
+    "score": "8.86"
+  },{
+    "institution": "St. Xavier's Senior Secondary School, Kannauj",
+    "area": "Math's",
+    "studyType": "10+2",
+    "startDate": "2019-04-10",
+    "endDate": "2020-06-2",
+    "score": "95.6%"
+  },{
+    "institution": "St. Xavier's Senior Secondary School, Kannauj",
+    "studyType": "10",
+    "startDate": "2017-04-01",
+    "endDate": "2018-05-28",
+    "score": "95.0%"
+  }],
+  "certificates": [{
+    "name": "M001:MongoDB Basics",
+    "date": "2022-01-02",
+    "issuer": "MongoDB",
+    "url": "https://learn.mongodb.com/c/LkW5HGJeXueR6M8zET1MAg"
+  },{
+    "name": "Hack The Mountains 3.0",
+    "date": "2022-08-19",
+    "issuer": "Sudan's Tech",
+    "url": "https://certificate.givemycertificate.com/c/ff391fea-8dc2-40bf-8144-70ac75748868"
+  },{
+    "name": "Defi Hacks",
+    "date": "2022-09-23",
+    "issuer": "Muj acm Chapter",
+    "url": "https://certificate.givemycertificate.com/c/1f2efe6b-08df-4226-868c-bdbb76ebeee9"
+  }],
+  "skills": [{
+    "name": "Golang",
+    "keywords": [
+      "Microservices",
+      "API's",
+      "Unit Testing"
+    ]
+  },{
+    "name": "NodeJs",
+    "keywords": [
+      "Express",
+      "API's",
+      "Socket io"
+    ]
+  },{
+    "name": "ReactJs",
+    "keywords": [
+      "Hooks"
+    ]
+  },{
+    "name": "Java"
+  },{
+    "name": "C++"
+  },{
+    "name": "Javascript"
+  },{
+    "name": "Css",
+    "keywords": [
+      "Tailwind Css"
+    ]
+  },{
+    "name": "Html"
+  },{
+    "name": "Firebase",
+    "keywords": [
+      "Auth",
+      "Pub/Sub"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Fluent"
+  },{
+    "language": "Hindi",
+    "fluency": "Native Speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Snakes",
+      "Reptiles"
+    ]
+  }],
+  "projects": [{
+    "name": "Project",
+    "description": "Description…",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "keywords": [
+      "HTML"
+    ],
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "url": "https://project.com/",
+    "roles": [
+      "Team Lead"
+    ],
+    "entity": "Entity",
+    "type": "application"
+  }]
+}

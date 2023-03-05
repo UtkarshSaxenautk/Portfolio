@@ -24,12 +24,16 @@ import InfoIcon from "@mui/icons-material/Info";
 import AccessibilityIcon from "@mui/icons-material/Accessibility";
 import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
 import First from "../Containers/First";
+import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import { Link } from "@material-ui/core";
+import ListIcon from '@mui/icons-material/List';
+import { HashLink } from 'react-router-hash-link' 
 
 const pages = [
-  { Name: "Home", Icon: <HomeIcon /> , Path:'/' },
-  { Name: "Projects", Icon: <WorkIcon /> , Path:'/projects' },
-  { Name: "About Me", Icon: <InfoIcon /> , Path:'/about' },
+  { Name: "About Me", Icon: <InfoIcon />, Path: '/#aboutme' },
+  { Name: "Experience", Icon: <WorkHistoryIcon/>, Path: '/#work' },
+  { Name: "Projects", Icon: <WorkIcon /> , Path:'/#projects' },
+  { Name: "Skills", Icon: <ListIcon/> , Path:'/#skills' },
   { Name: "Hire Me", Icon: <AccessibilityIcon /> , Path:'/hire'},
   { Name: "Contact", Icon: <ConnectWithoutContactIcon /> , Path:'/contact'},
 ];
@@ -89,7 +93,7 @@ const Nav = (props) => {
     <React.Fragment>
       <CssBaseline />
       <AppBar className="bg-gradient-to-r from-zinc-300 via-gray-100 to-slate-200 ... text-neutral-800 !important">
-        <Container maxWidth="xl">
+        <Container  maxWidth="xl">
           <Toolbar disableGutters>
             {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
 
@@ -144,14 +148,16 @@ const Nav = (props) => {
                 }}
               >
                 {pages.map((page) => (
+                  <HashLink smooth to = {page.Path} >
                   <MenuItem className="bg-white text-black" key={page.Name} onClick={handleCloseNavMenu}>
-                    <a className=' visited:text-black' href={page.Path} >
+                    {/* <a className=' visited:text-black' href={page.Path} > */}
                     <Typography textAlign="center" className="text-black">
                       {page.Icon}
                       {page.Name}
                       </Typography>
-                    </a>
-                  </MenuItem>
+                    {/* </a> */}
+                    </MenuItem>
+                    </HashLink>
                 ))}
               </Menu>
             </Box>
@@ -178,22 +184,25 @@ const Nav = (props) => {
 
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (
+                <HashLink smooth to = {page.Path
+                }>
                 <Button
                   key={page.Name}
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "black", display: "block", px: 4 }}
                 >
                   <Grid container direction="row" alignItems="center">
-                    <a className='onhover:text-gray-700 visited:text-black' href={page.Path} >
+                    {/* <a className='onhover:text-gray-700 visited:text-black' href={page.Path} > */}
                     <Grid item>{page.Icon}</Grid>
                       <Grid item>{page.Name}</Grid>
-                      </a>
+                      {/* </a> */}
                   </Grid>
                 </Button>
+                  </HashLink>
               ))}
             </Box>
 
-            <Button
+            <Button 
               sx={{
                 my: 2,
                 color: "black",

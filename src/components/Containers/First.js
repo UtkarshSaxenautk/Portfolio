@@ -8,6 +8,7 @@ import { Avatar, Button } from '@mui/material';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { Link } from 'react-router-dom';
 const First = () => {
   return (
     
@@ -21,10 +22,14 @@ const First = () => {
             <li>Computer Science Engineering Student</li>
             <li>Based in the India</li>
              <br/>
-            <Button variant="contained" color="success">Let's Connect</Button>
+            <Button variant="contained" color="success"><Link to={'/contact'}>Let's Connect </Link></Button>
             <br />
             <br/>
-            <span className='tracking-tight hover:tracking-wide pt-1'><a className='text-gray-600' href='https://www.instagram.com/utkarsh_saxena_utk/' target={'_blank'} rel="noreferrer"><InstagramIcon className='mx-3 text-gray-600'/></a><a href='https://www.linkedin.com/in/utkarsh-saxena-5a9034201/' rel="noreferrer" target={'_blank'}><LinkedInIcon className='mx-3 text-gray-600'/></a><a rel="noreferrer" href='https://github.com/UtkarshSaxenautk' target={'_blank'}><GitHubIcon className='mx-3 text-gray-600'/></a></span>
+            <span className='tracking-tight hover:tracking-wide pt-1'><a className='text-gray-600' href='https://www.instagram.com/utkarsh_saxena_utk/' target={'_blank'} rel="noreferrer"><InstagramIcon className='mx-3 text-gray-600' /></a>
+              <a href='https://www.linkedin.com/in/utkarsh-saxena-5a9034201/' rel="noreferrer" target={'_blank'}>
+                <LinkedInIcon className='mx-3 text-gray-600' /></a>
+              <a rel="noreferrer" href='https://github.com/UtkarshSaxenautk' target={'_blank'}>
+                <GitHubIcon className='mx-3 text-gray-600' /></a></span>
             
       </ul>
         </div>

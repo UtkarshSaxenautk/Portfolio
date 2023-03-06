@@ -21,18 +21,7 @@ const Footer = () => {
           <span><i className="fab fa-github"></i></span>
         </li>
       </a>
-      <a href="https://www.facebook.com/profile.php?id=100080736631446" rel="noreferrer" target="_blank">
-        <li className="icon facebook">
-          <span className="tooltip">Facebook</span>
-          <span><i className="fab fa-facebook-f"></i></span>
-        </li>
-      </a>
-      <a href="https://www.instagram.com/utkarsh_saxena_utk/" rel="noreferrer"  target="_blank">
-        <li className="icon instagram">
-          <span className="tooltip">Instagram</span>
-          <span><i className="fab fa-instagram"></i></span>
-        </li>
-      </a>
+      
       <a href="https://twitter.com/Utkarsh82072872" rel="noreferrer"  target="_blank">
         <li className="icon twitter">
           <span className="tooltip">Twitter</span>

@@ -22,7 +22,7 @@ const First = () => {
             <li>Computer Science Engineering Student</li>
             <li>Based in the India</li>
              <br/>
-            <Button variant="contained" color="success"><Link to={'/contact'}>Let's Connect </Link></Button>
+            <Button variant="contained" color="success"><Link className='text-gray-800' to={'/contact'}>Let's Connect </Link></Button>
             <br />
             <br/>
             <span className='tracking-tight hover:tracking-wide pt-1'><a className='text-gray-600' href='https://www.instagram.com/utkarsh_saxena_utk/' target={'_blank'} rel="noreferrer"><InstagramIcon className='mx-3 text-gray-600' /></a>

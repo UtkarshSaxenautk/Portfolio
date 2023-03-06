@@ -8,6 +8,7 @@ import LanguageIcon from '@mui/icons-material/Language';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -39,9 +40,9 @@ const About = () => {
          
         </CardContent>
          <CardActions id="work" className='float-right'>
-            <a href='/'>
+             <Link to = {'/aboutPage'}>
               <Button size="small" className='text-blue-300 bg-gray-700 shadow-lg shadow-cyan-500/50 ...'>Read More</Button>
-              </a>
+              </Link>
         </CardActions>
         
       </Box>

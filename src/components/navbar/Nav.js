@@ -34,7 +34,6 @@ const pages = [
   { Name: "Experience", Icon: <WorkHistoryIcon/>, Path: '/#work' },
   { Name: "Projects", Icon: <WorkIcon /> , Path:'/#projects' },
   { Name: "Skills", Icon: <ListIcon/> , Path:'/#skills' },
-  { Name: "Hire Me", Icon: <AccessibilityIcon /> , Path:'/hire'},
   { Name: "Contact", Icon: <ConnectWithoutContactIcon /> , Path:'/contact'},
 ];
 
@@ -159,6 +158,14 @@ const Nav = (props) => {
                     </MenuItem>
                     </HashLink>
                 ))}
+                <MenuItem className="bg-white text-black" key="hire-me" onClick={handleCloseNavMenu}>
+                    <a className=' visited:text-black' href='https://utkarshsaxenautk.github.io/resume/'>
+                    <Typography textAlign="center" className="text-black">
+                      <AccessibilityIcon />
+                      Hire Me
+                      </Typography>
+                    </a>
+                    </MenuItem>
               </Menu>
             </Box>
             <Typography
@@ -200,6 +207,13 @@ const Nav = (props) => {
                 </Button>
                   </HashLink>
               ))}
+               <a className='onhover:text-gray-700 visited:text-black' target={"_blank"} href='https://utkarshsaxenautk.github.io/resume/' >
+                <Grid container sx={{marginTop:'20px' , paddingLeft:'26px'}} >   
+                <Grid ><AccessibilityIcon /></Grid>
+                  <Grid >Hire Me</Grid>
+                  </Grid> 
+              </a>
+              
             </Box>
 
             <Button 

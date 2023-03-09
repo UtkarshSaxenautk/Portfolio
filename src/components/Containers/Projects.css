@@ -200,7 +200,7 @@ img.flexcardimgItem {
     }
 
     img.flexcardimgItem {
-        width: 30%;
+        width: 50%;
     }
 
 }
@@ -208,7 +208,7 @@ img.flexcardimgItem {
 @media only screen and (max-width: 500px) {
 
     .flexcard {
-        width: 70%;
+        width: 90%;
     }
 
 

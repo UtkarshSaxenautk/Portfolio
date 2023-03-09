@@ -21,8 +21,9 @@ const Work = () => {
         <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Software Engineering Intern<span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Latest</span></h3>
         <time className="block mb-2 text-sm font-normal leading-none text-gray-5600 dark:text-gray-200">08/2022 - Present</time>
                 <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400"><a aria-disabled
-                className='text-gray-800' href='https://www.zaubacorp.com/company/YOGI-NETWORKS-LIMITED/U92132TN2003PLC051014' target='_blank' rel="noreferrer"> <b>Yogi Networks</b> <PublicIcon/> </a><ul>
-                  <li>Building Microservices</li>
+                                className='text-gray-800' href='https://www.zaubacorp.com/company/YOGI-NETWORKS-LIMITED/U92132TN2003PLC051014' target='_blank' rel="noreferrer"> <b>Yogi Networks</b> <PublicIcon /> </a>
+                                <ul className='text-gray-700'>
+                  <li>Building Microservices in Golang, One of Cloudfare-ms dealing traffic of about 60k </li>
                     <li>Working on project <a className="text-slate-300 hover:text-blue-400" href='https://rabbitloader.com/' target='_blank' rel="noreferrer">RabbitLoader</a><ApiIcon /></li>
                     <li>Testing Golang Functions</li>
                     <li>Technology: Golang</li>
@@ -36,7 +37,7 @@ const Work = () => {
         <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Full Stack Developer Intern</h3>
         <time className="block mb-2 text-sm font-normal leading-none text-gray-5600 dark:text-gray-200">05/2022 - 07/2022</time>
         <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400"><a aria-disabled
-                className='text-gray-800' href='https://wizwack.in/' target='_blank' rel="noreferrer" > <b>Wizwack</b> <PublicIcon/> </a><ul>
+                className='text-gray-800' href='https://wizwack.in/' target='_blank' rel="noreferrer" > <b>Wizwack</b> <PublicIcon/> </a><ul className='text-gray-700'>
                   <li>Created different firebase services</li>
                     <li>Working on project <a className="text-slate-300 hover:text-blue-400" href='https://wizwack.in/' target='_blank' rel="noreferrer">Wizwack Game</a><SportsEsportsIcon /></li>
                     <li>Worked on Payment Service , User Service, Wallet Service and Game Service</li>

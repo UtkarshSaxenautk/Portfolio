@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.3.4",
+    "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@material-ui/core": "^4.12.4",
@@ -15,8 +16,10 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "emailjs": "^4.0.1",
     "framer-motion": "^7.4.0",
     "react": "^18.2.0",
+    "react-alert": "^7.0.3",
     "react-animated-progress-bar": "^1.1.1",
     "react-browser-router": "^2.1.2",
     "react-dom": "^18.2.0",

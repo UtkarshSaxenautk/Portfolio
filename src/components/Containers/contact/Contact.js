@@ -91,7 +91,7 @@ const Contact = () => {
                             <div className="text" >
                                 <p>
                                     <span>Phone:</span>
-                                    <a href="tel://8092506511" >+91-7985259022</a>
+                                    <a href="tel://7985259022" >+91-7985259022</a>
                                 </p>
                             </div>
                         </div>

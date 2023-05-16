@@ -8,9 +8,10 @@ import LanguageIcon from '@mui/icons-material/Language';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const About = () => {
+  const navigate = useNavigate()
   return (
     <Box className=" flex justify-self-auto mt-32 bg-slate-400" >
       <Box className="column-sm w-screen bg-gradient-to-r from-gray-500 via-gray-400 to-slate-400 ... ">
@@ -40,9 +41,9 @@ const About = () => {
          
         </CardContent>
          <CardActions id="work" className='float-right'>
-             <Link to = {'/aboutPage'}>
+          <button onClick={() => {navigate('/')}}>
               <Button size="small" className='text-blue-300 bg-gray-700 shadow-lg shadow-cyan-500/50 ...'>Read More</Button>
-              </Link>
+              </button>
         </CardActions>
         
       </Box>

@@ -34,7 +34,8 @@ const pages = [
   { Name: "Experience", Icon: <WorkHistoryIcon/>, Path: '/#work' },
   { Name: "Projects", Icon: <WorkIcon /> , Path:'/#projects' },
   { Name: "Skills", Icon: <ListIcon/> , Path:'/#skills' },
-  { Name: "Contact", Icon: <ConnectWithoutContactIcon /> , Path:'/contact'},
+  { Name: "Contact", Icon: <ConnectWithoutContactIcon />, Path: '/contact' },
+  {Name:  "Hire Me" , Icon: <AccessibilityIcon /> , Path: 'https://utkarshsaxenautk.github.io/resume/'}
 ];
 
 function ScrollTop(props) {
@@ -79,6 +80,20 @@ ScrollTop.propTypes = {
 };
 
 const Nav = (props) => {
+
+  const handleResume = () => {
+    fetch('Utkarsh.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'Resume.pdf';
+                alink.click();
+            })
+        })
+  }
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
@@ -147,6 +162,14 @@ const Nav = (props) => {
                 }}
               >
                 {pages.map((page) => (
+                  page.Name === "Hire Me"? <><MenuItem className="bg-white text-black" key="hire-me" onClick={handleCloseNavMenu}>
+                    <a className=' visited:text-black' href='https://utkarshsaxenautk.github.io/resume/'>
+                    <Typography textAlign="center" className="text-black">
+                      <AccessibilityIcon />
+                      Hire Me
+                      </Typography>
+                    </a>
+                    </MenuItem></>:
                   <HashLink smooth to = {page.Path} >
                   <MenuItem className="bg-white text-black" key={page.Name} onClick={handleCloseNavMenu}>
                     {/* <a className=' visited:text-black' href={page.Path} > */}
@@ -158,14 +181,7 @@ const Nav = (props) => {
                     </MenuItem>
                     </HashLink>
                 ))}
-                <MenuItem className="bg-white text-black" key="hire-me" onClick={handleCloseNavMenu}>
-                    <a className=' visited:text-black' href='https://utkarshsaxenautk.github.io/resume/'>
-                    <Typography textAlign="center" className="text-black">
-                      <AccessibilityIcon />
-                      Hire Me
-                      </Typography>
-                    </a>
-                    </MenuItem>
+                
               </Menu>
             </Box>
             <Typography
@@ -191,6 +207,20 @@ const Nav = (props) => {
 
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (
+                page.Name === "Hire Me" ? 
+                <a className='onhover:text-gray-700 visited:text-black' target={"_blank"} href='https://utkarshsaxenautk.github.io/resume/' >
+                <Button
+                  key={page.Name}
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: "black", display: "block", px: 4 }}
+                >
+                  <Grid container direction="row" alignItems="center">
+                    {/* <a className='onhover:text-gray-700 visited:text-black' href={page.Path} > */}
+                    <Grid item>{page.Icon}</Grid>
+                      <Grid item>{page.Name}</Grid>
+                      {/* </a> */}
+                  </Grid>
+                </Button></a> :
                 <HashLink smooth to = {page.Path
                 }>
                 <Button
@@ -207,16 +237,12 @@ const Nav = (props) => {
                 </Button>
                   </HashLink>
               ))}
-               <a className='onhover:text-gray-700 visited:text-black' target={"_blank"} href='https://utkarshsaxenautk.github.io/resume/' >
-                <Grid container sx={{marginTop:'20px' , paddingLeft:'26px'}} >   
-                <Grid ><AccessibilityIcon /></Grid>
-                  <Grid >Hire Me</Grid>
-                  </Grid> 
-              </a>
+               
               
             </Box>
 
             <Button 
+              onClick={handleResume}
               sx={{
                 my: 2,
                 color: "black",
@@ -226,7 +252,7 @@ const Nav = (props) => {
                 border: "1px solid black",
               }}
             >
-              Let's Talk
+              Get Resume
             </Button>
           </Toolbar>
         </Container>

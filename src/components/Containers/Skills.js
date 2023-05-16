@@ -9,32 +9,39 @@ import SkillBar from 'react-skillbars'
 const Skills = () => {
     const skills = [
         {
-            type: 'C++', level: 70,
+            type: 'Golang', level: 73,
             color: {
                 bar: "#323232",
                 title: { background: '#36454F', text: "#fff" }
             }
         },
-  { type: 'NodeJs', level: 65 ,  color: {
+  { type: 'NodeJs', level: 80 ,  color: {
                 bar: "#323232",
                 title: { background: '#36454F', text: "#fff" }
             } },
-  { type: 'ReactJs', level: 55 ,  color: {
+  { type: 'ReactJs', level: 70 ,  color: {
                 bar: "#323232",
                 title: { background: '#36454F', text: "#fff" }
             } },
-  { type: 'Golang', level: 50 ,  color: {
+  { type: 'Java', level: 65 ,  color: {
+                bar: "#323232",
+                title: { background: '#36454F', text: "#fff" }
+        }
+        },
+             { type: 'DSA', level: 77 ,  color: {
                 bar: "#323232",
                 title: { background: '#36454F', text: "#fff" }
             } },
-  { type: 'Java', level: 45 , color: {
+  { type: 'C++', level: 60 , color: {
                 bar: "#323232",
                 title: { background: '#36454F', text: "#fff" }
             } },
-  { type: 'HTML', level: 65 ,  color: {
+  { type: 'HTML', level: 85 ,  color: {
                 bar: "#323232",
                 title: { background: '#36454F', text: "#fff" }
-            } },
+        }
+        },
+ 
 ];
   return (
     <Box  className=" flex justify-self-auto mt-32  bg-slate-400">
